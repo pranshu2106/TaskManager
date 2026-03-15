@@ -11,18 +11,18 @@ The application is split into two distinct stages designed to elevate the standa
 
 ## ✨ Core Features :- 
 
-### 🛠️ Advanced Task Logic
+### 🛠️ Advanced Task Logic :
 -   **LIFO Sorting**: Newly created tasks are automatically prioritized at the top of the stack for instant feedback.
 -   **State-Persistence Pagination**: Navigating between tasks is powered by a custom pagination system that remembers your current page even after returning from the edit screen.
 -   **Intelligent Validation**: The application performs deep-state comparison when editing tasks, providing neutral feedback if no changes are detected to preserve data integrity.
 
-### 🎭 Premium 3D Animations :-
+### 🎭 Premium 3D Animations :
 -   **Digital Dive Transition**: A hardware-accelerated 0.9s "zoom-in" effect that fades the splash page while resolving the dashboard's focus-blur.
 -   **3D Interactive Hover Tilt**: Task cards tilt and glare in 3D space based on real-time mouse movement.
 -   **Void Deletion**: Deleted items don't just vanish; they undergo a cinematic "shrink-into-void" animation.
 -   **3D Flip Pagination**: Page transitions trigger a staged "flip-out" and "flip-in" cascade for a physical, tactile feel.
 
-### 🏆 Micro-Interaction "Rewards" :-
+### 🏆 Micro-Interaction "Rewards" :
 -   **Neon Recoil Bloom**: Completing a task triggers a vibrant neon pulse reward.
 -   **Inbox Zero Peace**: A specialized badge appears when all tasks are cleared, celebrating your productivity.
 
