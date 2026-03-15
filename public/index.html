@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <!-- Google Fonts: Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./normalize.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./main.css" />
+  <title>Task Manager</title>
+</head>
+
+<body>
+  <!-- ============================================ -->
+  <!-- STAGE 1: GLOBAL COMMAND SPLASH PAGE          -->
+  <!-- ============================================ -->
+  <div id="splash-page">
+    <iframe class="spline-splash" src="https://my.spline.design/thebluemarble-YEL1LmZbaQn7Dvvv2VvRay2n/?v=2" frameborder="0" allowfullscreen></iframe>
+    <div class="splash-overlay">
+      <h1 class="splash-text">WORLD STATUS: ACTIVE <br><span class="enter-cmd">// ENTER DASHBOARD</span></h1>
+    </div>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- STAGE 2: TASK MANAGER DASHBOARD              -->
+  <!-- ============================================ -->
+  <div id="dashboard-page">
+    <!-- Back to Orbit Button -->
+    <button id="back-to-orbit" class="btn glass-btn">
+      <i class="fas fa-chevron-left"></i> TERMINAL
+    </button>
+
+    <!-- Spline 3D Soundwave Background (Deferred Load via data-src) -->
+    <iframe class="spline-bg" data-src="https://my.spline.design/soundwave-fssPtzKFb5xxo6yxWDBfFu6g/" frameborder="0" allowfullscreen></iframe>
+
+    <form class="task-form">
+      <h4>task manager</h4>
+      <div class="form-control">
+        <input type="text" name="name" class="task-input" placeholder="e.g. wash dishes" />
+        <button type="submit" class="btn submit-btn">submit</button>
+      </div>
+      <div class="form-alert"></div>
+    </form>
+    
+    <section class="tasks-container">
+      <p class="loading-text">Loading...</p>
+      <div class="tasks"></div>
+      <!-- Pagination Controls -->
+      <div class="pagination-controls">
+        <button class="btn pagination-btn" id="prev-btn" disabled>Prev</button>
+        <span id="page-indicator">Page 1</span>
+        <button class="btn pagination-btn" id="next-btn" disabled>Next</button>
+      </div>
+    </section>
+  </div>
+  <!-- axios -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./browser-app.js"></script>
+</body>
+
+</html>
