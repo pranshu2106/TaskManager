@@ -2,8 +2,6 @@
 
 A futuristic, high-performance Task Management application featuring a two-stage immersive user experience, interactive 3D Spline environments, and premium glassmorphic design.
 
-![Splash Preview](https://my.spline.design/thebluemarble-YEL1LmZbaQn7Dvvv2VvRay2n/)
-
 ## 🚀 The Experience
 
 The application is split into two distinct stages designed to elevate the standard utility of a task manager into a cinematic experience:
